@@ -1,4 +1,4 @@
 name: Posts
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: /posts
