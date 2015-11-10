@@ -1,4 +1,5 @@
 name: Posts
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
+comments: true
 baseurl: 

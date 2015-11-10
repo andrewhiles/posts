@@ -1,0 +1,11 @@
+<nav class="nav-primary" role="navigation" >
+	<h2 class="entriesHeader">Blog Entries</h3>
+    <ul>
+        {% for p in site.pages limit:6 %}
+        <li>
+        	<span class="octicon octicon-chevron-right"></span>
+        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
