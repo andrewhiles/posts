@@ -1,91 +1,25 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: whitesmoke;
+    
 }
 
-body {
-    font-family: "Arial", "serif";
+.top-stripe {
+  height: .40em;
+  background-image: linear-gradient(to right, #c69 0%, #c69 8.33333%, #b37399 8.33333%, #b37399 16.66667%, #998099 16.66667%, #998099 25%, #699 25%, #699 33.33333%, #d2e1dd 33.33333%, #d2e1dd 41.66667%, #fff 41.66667%, #fff 50%, #f2ece4 50%, #f2ece4 58.33333%, #e1d7d2 58.33333%, #e1d7d2 66.66667%, #dadbdf 66.66667%, #dadbdf 75%, #808c99 75%, #808c99 83.33333%, #6b717f 83.33333%, #6b717f 91.66667%, #036 91.66667%, #036 100%)
 }
 
 p {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 18px;
-  line-height: 1.7;
-  color: #8b8f92;
-}
-
-p.date {
-  font-style: italic;
-  color: silver;
-  border-bottom: 1px solid salmon;
+  color: black;
+  font-size: 20px;
 }
 
 img {
   max-width: 100%;
 }
 
-h1 {
-  padding-top: 30px;
-  font-size: 42px;
-}
-
-main {
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-}
-
-a.linx {
-    color: CADETBLUE;
-    text-decoration: none;
-}
-
-body {
-    border-left: 9px solid darkred;
-}
-
-.nav-primary {
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-}
-
-h2.entriesHeader {
-  font-size: 28px;
-  padding-top: 30px;
-}
-
-ul
-{
-  list-style-type: none;
-  padding-bottom: 60px;
-}
-
-a:visited, a:link {
-    color: SLATEGRAY;
-    text-decoration: none;
-}
-
-span.octicon {
-  color: tomato;
+.top-30 {
+  margin-top: 30px;
 }
