@@ -1,0 +1,16 @@
+<div class="content">
+    <header class="home--latest-posts-header">Other Posts</header>
+    <br>
+    <ul class="entry-list--list">
+        {% for post in site.posts limit:6 %}
+            {% if post.url != page.url %}
+                {% if forloop.index < 6 or found %}
+                <li><a {% if post.url==page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ post.url }}">{{post.title }}</a></h1>
+                {% endif %}
+            {% else %}
+                {% assign found = true %}
+                <p>No other posts yet - come back soon.</p>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

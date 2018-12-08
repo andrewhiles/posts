@@ -1,6 +1,28 @@
----
-layout: default
-title: Home
+--- 
+layout: default 
+title: Software Engineer in Belfast, Andrew Hiles 
 ---
 
-{% include nav.html %}
+<div class="content">
+  <div class="home--intro-wrapper-profile-image">
+    <img src="images/andrewhiles.jpg">
+  </div>
+  <div class="home--latest-posts">
+    <header class="home--latest-posts-header">Recent Posts</header>
+    {% for p in site.posts limit:4 %}
+    <div class="home--post-excerpt">
+      <p class="home--post-excerpt-date">{{ p.date | date: '%B %d, %Y' }}</p>
+      <h2>
+        <a {% if p.url==page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+      </h2>
+      <p>{{ p.excerpt | strip_html | truncatewords: 40 }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="home--read-more">
+    <button class="home--button-more-posts">
+      <p>
+        <a href='{{ site.baseurl }}/posts'>Read more ...</a>
+    </button>
+  </div>
+</div>

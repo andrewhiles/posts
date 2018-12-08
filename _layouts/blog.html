@@ -1,0 +1,21 @@
+{% include head.html %}
+<!-- HTML elements for search -->
+<div class="content">
+<div class="posts--search-area">
+  <div id="search-container">
+  <input type="text" id="search-input" class="search-input" placeholder="Search...">
+  <ul id="results-container"></ul>
+</div>
+</div>
+
+<!-- jekyll-search.js -->
+<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    noResultsText: 'No results found.'
+  })
+</script>
+{{ content }} {% include foot.html %}

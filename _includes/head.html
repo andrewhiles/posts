@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/blog.css" >
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/octicons/octicons.css">
-    </head>
-    <body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Andrew Hiles">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/file.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
+  <!-- Start of Async Drift Code -->
+  <script>
+    ! function() {
+      var t;
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+        t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+        t.factory = function(e) {
+          return function() {
+            var n;
+            return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e, n, o, i;
+          e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+        });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('fkhbw9xba7kh');
+  </script>
+  <!-- End of Async Drift Code -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="home--intro-wrapper">
+        <div class="home--intro-wrapper-text">
+          <h1><a href='{{ site.baseurl }}/'>Andrew Hiles<br> Software Engineer</a></h1>
+        </div>
+        <div class="home--nav">
+          <ul>
+            <li><a href='{{ site.baseurl }}/'>Home</a></li>
+            <li><a href='{{ site.baseurl }}/posts'>Posts</a></li>
+            <li><a href='{{ site.baseurl }}/about'>About</a></li>
+            <li><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss feed-icon"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
