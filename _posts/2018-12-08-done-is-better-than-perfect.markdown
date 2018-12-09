@@ -13,7 +13,7 @@ Looking back, the last 5 years on this website haven't been much more than a bas
 Each year I was renewing the hosting with good intentions but very little happened. I spend a large portion of my working day tweaking things in the browser and it's a fundamental part of my occupation, to be able to craft fully-functional, production-ready websites. However, when it came to my own, it was just left, gathering dust. Perhaps a case of occupational hazard? Who knows.
 
 # Finding new motivation
-Back in October 2018 I FTP'd onto my web server for the first time in quite a while. I was looking for a few server configuration files when I came across all of old the content I'd created in previous years. Lots of different versions of holding pages, half-baked CSS files and images I'd snapped on my camera that never saw the light of day. In that moment, I quickly realised I'd forgotten about my online space for too long and it was time for a reboot.
+Back in October 2018 I FTP'd onto my web server for the first time in quite a while. I was looking for a few server configuration files when I came across all of the old content I'd created in previous years. Lots of different versions of holding pages, half-baked CSS files and images I'd snapped on my camera that never saw the light of day. In that moment, I quickly realised I'd forgotten about my online space for too long and it was time for a reboot.
 
 ![alt text](../../../../images/2018-12-08-img1.jpg "Done is better than perfect poster image")
 
