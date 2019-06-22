@@ -15,7 +15,7 @@ title: Software Engineer in Belfast, Andrew Hiles
       <h2>
         <a {% if p.url==page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
       </h2>
-      <p>{{ p.excerpt | strip_html | truncatewords: 40 }}</p>
+      <p>{{ p.excerpt | strip_html | truncatewords: 60 }}</p>
     </div>
     {% endfor %}
   </div>
