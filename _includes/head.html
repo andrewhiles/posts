@@ -37,6 +37,10 @@
     drift.load('fkhbw9xba7kh');
   </script>
   <!-- End of Async Drift Code -->
+
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
 
 <body>
