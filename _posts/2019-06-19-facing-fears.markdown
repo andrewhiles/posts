@@ -14,7 +14,7 @@ At the time, I wasn't sure I had the capabilities of being someone who could spe
 # Testing the waters
 Several weeks passed and I kept thinking that I needed to face my fears of public speaking. However, anxiety and imposter syndrome can be quite debilitating for me and each time I began thinking more positively it felt like something would drop from the sky, hit me in the face and remind me that it wasn't going to happen. Nonetheless, one day I seemed to have much more resilience to the negativity and felt I was ready to do it. Without any hesitation, I performed a swift Google search of local meet-ups in the city of Belfast that I might be able to approach and pitch my idea of a talk to.
 
-![alt text](../../../../images/2019-06-19-img3.jpg "Twitter message about my talk at Northern Ireland Developer Conference 2019")
+![alt text](../../../../images/2019-06-19-img3.jpg "Northern Ireland Developer Conference logo")
 
 One of the first results I came across was for a local tech conference, [NIDevConf(Northern Ireland Developer Conference)](https://www.nidevconf.com/) and the moment I noticed they had a request for speaker proposals, I started creating a lightning talk proposal for what I wanted to discuss. Lightning talks were limited to 10 minutes in duration and if requested, the speaker could take questions afterwards - this felt like the perfect opportunity for me. Within approximately 30 minutes, I had submitted the proposal and that was it. I'd made the first move and it was up to the organisers of the event to decide whether my talk was worthy of their approval.
 
@@ -39,6 +39,6 @@ For years, I've felt afraid to step out and face my fear of public speaking, but
 
 "Never let the fear of striking out keep you from playing the game" - Babe Ruth
 
-![alt text](../../../../images/2019-06-19-img2.jpg "Twitter message about my talk at Northern Ireland Developer Conference 2019")
+![alt text](../../../../images/2019-06-19-img2.jpg "A photo of me feeling pretty relieved")
 
 -Andrew
