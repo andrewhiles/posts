@@ -19,5 +19,4 @@ exclude:
   - node_modules
   - gulpfile.js
 
-# Google Analytics
 google_analytics: UA-142621470-1
