@@ -457,3 +457,7 @@ a:hover, a:visited, a:link, a:active {
 img {
   max-width: 100%;
 }
+
+.highlight {
+  overflow: hidden;
+}
