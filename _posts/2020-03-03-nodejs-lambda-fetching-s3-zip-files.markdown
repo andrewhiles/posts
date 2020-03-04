@@ -11,7 +11,7 @@ Just last week, I was tasked with writing a Lambda function that would receive a
 
 I've been making a conscious effort to use [async/await](https://javascript.info/async-await) in most places where I'm dealing with asynchronous code and the AWS SDK for NodeJS works well with Promises ([despite them not mentioning this very publicly](https://aws.amazon.com/blogs/developer/support-for-promises-in-the-sdk/)) so it made sense to take advantage here. The code snippet below shows how I implemented a solution to fetch a zip file from S3, unzip it and write the contents of the file out to a temporary file in the Lambda's temporary working directory. 
 
-PS. It's worth noting, normally when making a call to get a file from S3, you should be able to access the raw file data by accessing the body of the result. The reason why this task was reasonably cumbersome was because I had to deal with .zip files.
+PS. It's worth noting, normally when making a call to get a file from S3, you should be able to access the raw file data by accessing the body of the result. The reason why this task was reasonably cumbersome was because I had to deal with .zip files and streams. Thankfully, using [zlib](https://node.readthedocs.io/en/latest/api/zlib/) made this all a bit more manageable.
 
 ```
 const aws = require('aws-sdk');
