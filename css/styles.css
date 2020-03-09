@@ -459,5 +459,10 @@ img {
 }
 
 .highlight {
-  overflow: hidden;
+  overflow: scroll;
+}
+
+svg { 
+  width: 100%; 
+  height: auto; 
 }
