@@ -3,7 +3,7 @@ layout: post
 title: Software Engineering - An Industry of Opportunity
 date: 2020-03-09
 categories: [General]
-header-img: "../../../../images/2020-03-08.svg"
+image: "../../../../images/2020-03-08.svg"
 excerpt: Last month, lots of people working within the tech industry (Software Engineering, specifically) contributed to a trend on Twitter where they shared their personal response to 5 important facts related to their professional journey (1. Education, 2. Years in the game, 3. Job Title, 4. Working Location, 5. Salary). Personally, I thought this was a really positive endeavour as it set realistic expectations on a ton of different things that working in the tech industry as an Software engineer can bring.
 ---
 
