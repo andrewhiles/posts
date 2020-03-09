@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/file.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
+  {% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+  {% endif %}
+
+  <meta property="og:description" content="{{ page.title }}" />
+
   <!-- Start of Async Drift Code -->
   <!-- <script>
     ! function() {
