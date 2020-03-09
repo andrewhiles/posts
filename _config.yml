@@ -20,3 +20,6 @@ exclude:
   - gulpfile.js
 
 google_analytics: UA-142621470-1
+
+title_image: andrewhiles.jpg
+twitter_username: hiler88
