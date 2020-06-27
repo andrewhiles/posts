@@ -2,7 +2,7 @@
 layout: post
 title: Running NPM script tasks in different directories
 date: 2020-06-27
-categories: [NodeJS, TypeScript, NPM CLI]
+categories: [NPM]
 excerpt: 
 ---
 Recently I'd been working on a TypeScript project that had nested modules throughout the codebase. It had a top-level package.json file and three nested sub-modules all with their own package files. In order to build and test the project before checking-in code changes, I needed to access the NPM script tasks of each sub-module to build them and run the unit tests. 
