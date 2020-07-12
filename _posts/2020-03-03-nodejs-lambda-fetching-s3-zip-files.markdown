@@ -13,7 +13,7 @@ I've been making a conscious effort to use [async/await](https://javascript.info
 
 PS. It's worth noting, normally when making a call to get a file from S3, you should be able to access the raw file data by accessing the body of the result. The reason why this task was reasonably cumbersome was because I had to deal with .zip files and streams. Thankfully, using [zlib](https://node.readthedocs.io/en/latest/api/zlib/) made this all a bit more manageable.
 
-```
+```javascript
 const aws = require('aws-sdk');
 const fs = require('fs');
 const zlib = require('zlib');

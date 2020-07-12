@@ -54,13 +54,13 @@ a:hover, a:visited, a:link, a:active {
 
 @media (max-width: 700px) {
   .wrapper {
-    grid-template-columns: 10% auto 10%;
+    grid-template-columns: 10% 80% 10%;
   }
 }
 
 @media (min-width: 701px) {
   .wrapper {
-    grid-template-columns: 20% auto 20%;
+    grid-template-columns: 20% 60% 20%;
   }
 }
 
@@ -458,6 +458,11 @@ img {
   max-width: 100%;
 }
 
-.highlight {
-  overflow: scroll;
+.highlighter-rouge {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
 }
+
+ pre.highlight {
+  overflow: scroll;
+} 

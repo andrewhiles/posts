@@ -21,7 +21,7 @@ Now that you have configured the Security Group ingress rules to allow connectio
 # Using pg_dump module to create backup
 Once you have successfully connected to the database, locate the database in the pgAdmin browser panel then right-click on the database name. Select the 'Backup' option. This will let you configure the backup task, selecting the dump file location, compression options, etc. Once you are happy with the configuration of the backup, click 'Backup'. pgAdmin will then run a [pg_dump](https://www.postgresql.org/docs/12/app-pgdump.html) command that should look something like the code below.
 
-```
+```shell
 pg_dump --file "/pathToYourDumpFile.sql" --host "yourRDSInstance" --port "5432" --username "username"
 ```
 

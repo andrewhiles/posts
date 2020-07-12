@@ -11,7 +11,7 @@ Originally, I began writing a bash script that could be executed from a script t
 
 Instead of running my bash script, I was able to use --prefix to execute the build and test NPM script tasks of each sub-module all from within the parent package.json file.
 
-```
+```shell
 npm run build --prefix ./yourSubModuleDirectory
 ```
 
